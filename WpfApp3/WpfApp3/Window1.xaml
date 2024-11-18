@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp3.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800" Background="Beige">
+    <Grid>
+        <TextBox TextWrapping="Wrap"  Margin="488,27,162,383" Name="id"/>
+        <TextBox TextWrapping="Wrap"  Margin="592,88,58,322" Name="state"/>
+        <TextBox TextWrapping="Wrap"  Margin="367,159,283,259" Name="descrip"/>
+        <TextBox TextWrapping="Wrap"  Margin="367,87,283,323" Name="title"/>
+
+        <DataGrid Margin="10,10,548,147" Name="list" SelectionChanged="list_SelectionChanged"/>
+        <Button Content="add" HorizontalAlignment="Left" Margin="475,236,0,0" VerticalAlignment="Top" Click="Button_Click" />
+        <Button Content="edit" HorizontalAlignment="Left" Margin="543,236,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="delete" HorizontalAlignment="Left" Margin="627,236,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <Label Content="id" HorizontalAlignment="Left" Margin="420,21,0,0" VerticalAlignment="Top"/>
+        <Label Content="title" HorizontalAlignment="Left" Margin="305,89,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.434,0.926"/>
+        <Label Content="descrip" HorizontalAlignment="Left" Margin="305,149,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.393,0.676"/>
+        <Label Content="state" HorizontalAlignment="Left" Margin="544,89,0,0" VerticalAlignment="Top"/>
+        <TextBox TextWrapping="Wrap"  Margin="627,157,23,253" Name="empname"/>
+        <Label Content="name" HorizontalAlignment="Left" Margin="563,157,0,0" VerticalAlignment="Top"/>
+        
+    </Grid>
+</Window>

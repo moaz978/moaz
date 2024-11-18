@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Beige">
+    <Grid>
+        <TextBox TextWrapping="Wrap" Margin="324,98,324,298" Name="name"/>
+        <TextBox TextWrapping="Wrap" Margin="324,141,324,255" Name="password"/>
+        <Button Content="login" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click"/>
+        
+        <Label Content="name" HorizontalAlignment="Left" Margin="243,104,0,0" VerticalAlignment="Top"/>
+        <Label Content="password" HorizontalAlignment="Left" Margin="243,153,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
